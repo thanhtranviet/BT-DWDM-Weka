@@ -22,7 +22,7 @@ public class WekaDTMain {
 
 		// read data
 		Instances data = DataSource
-				.read("D:\\Thanh\\Workspace\\weather.nominal.arff");
+				.read("/home/thanh/wordspace/BT-DWDM-Weka/weather.nominal.arff");
 		// class is the last attribute
 		data.setClassIndex(data.numAttributes() - 1);
 		String[] options = new String[2];
