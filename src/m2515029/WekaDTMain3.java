@@ -49,6 +49,7 @@ public class WekaDTMain3 {
 
 		FilteredClassifier cls = new FilteredClassifier();
 		cls.setFilter(stwv);
+		cls.setClassifier(tree);
 		cls.buildClassifier(dataTrain);
 
 		// perform cross-validation
